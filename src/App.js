@@ -6,7 +6,8 @@ import MorePosts from "./components/MorePosts";
 
 function App() {
   return (
-    <Router>
+    <section>
+      <Router>
     
        <Routes>
         <Route path="/" element={ <Home /> }></Route>
@@ -14,6 +15,8 @@ function App() {
         <Route path="/moreposts" element={ <MorePosts/> }></Route>
        </Routes>
     </Router>
+    </section>
+    
   );
 }
 
