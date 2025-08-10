@@ -8,7 +8,7 @@ const Navigation = () => {
         <div class="w3-top">
             <Navbar expand="lg" className="bg-body-tertiary" sticky="top" style={{backgroundSize: "100px", backgroundColor: "#3f8d1dff"}}>
             <Container fluid style={{ minHeight: "6vh"}}>
-                <Navbar.Brand href="/">ひなた治療院</Navbar.Brand>
+                <Navbar.Brand href="#">ひなた治療院</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
