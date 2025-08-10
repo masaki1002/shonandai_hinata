@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shonandai_hinata/static/css/main.1d5a83c1.css",
-    "main.js": "/shonandai_hinata/static/js/main.5c8d1785.js",
+    "main.js": "/shonandai_hinata/static/js/main.02407447.js",
     "index.html": "/shonandai_hinata/index.html",
     "static/media/Members": "/shonandai_hinata/static/media/Members.31d6cfe0d16ae931b73c",
     "main.1d5a83c1.css.map": "/shonandai_hinata/static/css/main.1d5a83c1.css.map",
-    "main.5c8d1785.js.map": "/shonandai_hinata/static/js/main.5c8d1785.js.map"
+    "main.02407447.js.map": "/shonandai_hinata/static/js/main.02407447.js.map"
   },
   "entrypoints": [
     "static/css/main.1d5a83c1.css",
-    "static/js/main.5c8d1785.js"
+    "static/js/main.02407447.js"
   ]
 }
