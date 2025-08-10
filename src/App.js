@@ -4,7 +4,7 @@ import { BrowserRouter as Route} from 'react-router-dom';
 function App() {
   return (
     <div>
-      <p>Hinata homepage</p>
+      <p>Hinata homepage, yeah</p>
     </div>
   );
 }
