@@ -3,13 +3,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD4W54ENjrMdb9bHfRsdalHdefNkR-aIL0",
+  apiKey: "",
   authDomain: "shonandai-hinata.firebaseapp.com",
   projectId: "shonandai-hinata",
   storageBucket: "shonandai-hinata.firebasestorage.app",
-  messagingSenderId: "547495589337",
-  appId: "1:547495589337:web:d76a5db8ff363166d015c8",
-  measurementId: "G-LG7PKGYQVL"
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase

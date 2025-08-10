@@ -1,12 +1,21 @@
 import './App.css';
-import { BrowserRouter as Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./components/Home";
+import MorePosts from "./components/MorePosts";
 
 function App() {
   return (
-    <div>
-      <p>Hinata homepage, yeah</p>
-    </div>
+    <Router>
+    
+       <Routes>
+        <Route path="/" element={ <Home /> }></Route>
+        <Route path="/#" element={ <Home /> }></Route>
+        <Route path="/moreposts" element={ <MorePosts/> }></Route>
+       </Routes>
+    </Router>
   );
 }
 
 export default App;
+
