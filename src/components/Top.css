@@ -1,0 +1,9 @@
+.bgimg-1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(148, 151, 150, 0.7) 100%),url("../../public/outside_02.jpg") no-repeat top center;
+    background-size:cover;
+    height: 120vh;  
+}
+

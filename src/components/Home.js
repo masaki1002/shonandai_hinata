@@ -16,6 +16,7 @@ const Home = () => {
   return (
     <div className="all_components">
       <Navigation />
+      <Top />
      
     </div>
  
