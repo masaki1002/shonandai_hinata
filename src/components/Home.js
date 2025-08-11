@@ -17,6 +17,7 @@ const Home = () => {
     <div className="all_components">
       <Navigation />
       <Top />
+      <Post />
      
     </div>
  

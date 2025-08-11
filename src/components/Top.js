@@ -22,9 +22,9 @@ const Top = () => {
 
   return (
 <div class="bgimg-1 w3-display-container w3-grayscale-min">
-  <div class="w3-display-left w3-text-white" style={text_subtitle}>
-    <span class="w3-jumbo w3-hide-small">湘南台の"身近"な治療院</span>
-    <span class="w3-xlarge w3-hide-jumbo w3-hide-large w3-hide-medium"><b>湘南台の“身近な治療院”</b></span>
+  <div class="w3-display-left w3-text-white letter_spacing" style={text_subtitle}>
+    <span class="top_title_font w3-xxlarge w3-hide-small">湘南台で気軽に立ち寄れる治療院</span>
+    <span class="top_title_font w3-xxlarge w3-hide-large w3-hide-medium">湘南台で気軽に<br></br>立ち寄れる治療院</span>
     <br></br>
     {/* <span class="w3-large">丁寧な施術で身体のメンテナンスをサポート</span> */}
     <p><a href="#accessmap" class="w3-button w3-teal w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off">ひなた治療院へ行ってみる</a></p>

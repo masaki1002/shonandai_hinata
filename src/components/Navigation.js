@@ -12,7 +12,7 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
-                    <Nav.Link  href="#post">季節の便り</Nav.Link>
+                    <Nav.Link href="#post">季節の便り</Nav.Link>
                     <Nav.Link href="#intro">当院の紹介</Nav.Link>
                     <Nav.Link href="#approach">施術アプローチ</Nav.Link>
                     <Nav.Link href="#patientsvoices">患者さんの声</Nav.Link>
@@ -24,7 +24,6 @@ const Navigation = () => {
             </Container>
             </Navbar>
         </div>
-
   )
 }
 

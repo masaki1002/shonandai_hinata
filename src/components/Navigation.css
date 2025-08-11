@@ -1,0 +1,11 @@
+/* For navigation links */
+.navbar-nav .nav-link {
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-size: 1.1rem;
+}
+
+/* For the brand/logo */
+.navbar-brand {
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-size: 1.5rem;
+}
