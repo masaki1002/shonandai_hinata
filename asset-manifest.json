@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shonandai_hinata/static/css/main.aa01f55e.css",
-    "main.js": "/shonandai_hinata/static/js/main.78ac3b7a.js",
+    "main.js": "/shonandai_hinata/static/js/main.0ff69491.js",
     "static/media/outside_02.jpg": "/shonandai_hinata/static/media/outside_02.d71920a4940868808e28.jpg",
     "index.html": "/shonandai_hinata/index.html",
     "static/media/Members": "/shonandai_hinata/static/media/Members.31d6cfe0d16ae931b73c",
     "main.aa01f55e.css.map": "/shonandai_hinata/static/css/main.aa01f55e.css.map",
-    "main.78ac3b7a.js.map": "/shonandai_hinata/static/js/main.78ac3b7a.js.map"
+    "main.0ff69491.js.map": "/shonandai_hinata/static/js/main.0ff69491.js.map"
   },
   "entrypoints": [
     "static/css/main.aa01f55e.css",
-    "static/js/main.78ac3b7a.js"
+    "static/js/main.0ff69491.js"
   ]
 }
