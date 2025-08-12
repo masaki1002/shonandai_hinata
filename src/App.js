@@ -1,20 +1,18 @@
 import React from "react"
 
 import './App.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./components/Home";
-import MorePosts from "./components/MorePosts";
+import Navigation from "./components/Navigation";
+import Top from "./components/Top";
+import Post from "./components/Post";
 
 function App() {
   return (
-       <Router>
-       <Routes>
-        <Route path="/" element={ <Home /> }></Route>
-        <Route path="/#" element={ <Home /> }></Route>
-        <Route path="/moreposts" element={ <MorePosts/> }></Route>
-       </Routes>
-    </Router>
+      <div className="all_components">
+      <Navigation />
+      <Top />
+      <Post />
+    </div>
     
   );
 }
