@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/shonandai_hinata/static/css/main.2ad246a5.css",
-    "main.js": "/shonandai_hinata/static/js/main.cac2df9d.js",
+    "main.css": "/shonandai_hinata/static/css/main.005e8faf.css",
+    "main.js": "/shonandai_hinata/static/js/main.122c13b3.js",
     "static/media/outside_02.jpg": "/shonandai_hinata/static/media/outside_02.d71920a4940868808e28.jpg",
     "index.html": "/shonandai_hinata/index.html",
-    "main.2ad246a5.css.map": "/shonandai_hinata/static/css/main.2ad246a5.css.map",
-    "main.cac2df9d.js.map": "/shonandai_hinata/static/js/main.cac2df9d.js.map"
+    "main.005e8faf.css.map": "/shonandai_hinata/static/css/main.005e8faf.css.map",
+    "main.122c13b3.js.map": "/shonandai_hinata/static/js/main.122c13b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ad246a5.css",
-    "static/js/main.cac2df9d.js"
+    "static/css/main.005e8faf.css",
+    "static/js/main.122c13b3.js"
   ]
 }
