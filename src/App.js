@@ -1,7 +1,7 @@
 import React from "react"
 
 import './App.css';
-import { Routes, Route, HashRouter  } from 'react-router-dom';
+import { BrowserRouter, Router, Routes, Route, Link } from 'react-router-dom';
 import Post from './components/Post';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from "./components/Navigation";
@@ -10,14 +10,12 @@ import MorePosts from "./components/MorePosts";
 
 function App() {
   return (
-    <HashRouter>
-    
+    <BrowserRouter>
        <Routes>
         <Route path="/" element={ <Home /> }></Route>
-        <Route path="/#" element={ <Home /> }></Route>
         <Route path="/moreposts" element={ <MorePosts/> }></Route>
        </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

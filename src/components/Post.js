@@ -2,7 +2,7 @@ import React,  { useEffect, useRef }  from 'react';
 import "./Post.css";
 import placeholder from "../images/placeholder-image.jpg"
 import window_decoration from "../images/inside_interior.jpg"
-import okyu_video from "../images/okyu.mp4"
+
 
 function Post() {
 
@@ -52,7 +52,7 @@ function Post() {
           muted
           controls
           alt="All the devices"
-          src={okyu_video}
+     
           ref={videoEl}
         />
       </div>
