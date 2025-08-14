@@ -12,20 +12,24 @@ import Members from "./components/Members";
 import Menus from "./components/Menus";
 import AccessMap from "./components/AccessMap";
 import SNS from "./components/SNS";
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import MorePosts from "./components/MorePosts";
+import Home from "./components/Home";
 
 function App() {
   return (
+
       <div className="all_components">
-      <Navigation />
-      <Top />
-      <Post />
-      <Intro />
-      <Approach />
-      <PatientVoices />
-      <Members />
-      <Menus />
-      <AccessMap />
-      <SNS /> 
+
+        <Router>
+    
+       <Routes>
+        <Route path="/" element={ <Home /> }></Route>
+        <Route path="/#" element={ <Home /> }></Route>
+        <Route path="/moreposts" element={ <MorePosts/> }></Route>
+       </Routes>
+    </Router>
+
     </div>
     
   );

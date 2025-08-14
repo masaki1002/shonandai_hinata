@@ -1,13 +1,30 @@
-import React from 'react';
+import React,  { useEffect, useRef }  from 'react';
 import "./Post.css";
 import placeholder from "../images/placeholder-image.jpg"
-
+import window_decoration from "../images/inside_interior.jpg"
+import okyu_video from "../images/okyu.mp4"
 
 function Post() {
 
    const post_size = {
     padding: "100px 16px"
   }
+
+  const videoEl = useRef(null);
+
+  const attemptPlay = () => {
+    videoEl &&
+      videoEl.current &&
+      videoEl.current.play().catch(error => {
+        console.error("Error attempting to play", error);
+      });
+  };
+
+  useEffect(() => {
+    attemptPlay();
+  }, []);
+
+
 
   return (
   <section id="post">
@@ -28,10 +45,20 @@ function Post() {
           <p><a href="#moreposts" class="w3-button w3-teal w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off"><i class="fa fa-th"> </i>過去の便りを見る</a></p>
         </div>
         <div class="w3-col m6">
-            <img class="w3-image w3-round-large" src={placeholder} alt="post_image"></img>
-        </div>
+        <video
+          style={{ maxWidth: "100%", width: "300px",  margin: "0 auto" }}
+          playsInline
+          loop
+          muted
+          controls
+          alt="All the devices"
+          src={okyu_video}
+          ref={videoEl}
+        />
       </div>
     </div>
+        </div>
+    
   </section>
   )
 }

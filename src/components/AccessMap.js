@@ -3,6 +3,10 @@ import './Approach.css'
 
 import Iframe from 'react-iframe'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock, faHouse, faTrain, faPhone, faCalendar } from '@fortawesome/free-solid-svg-icons'
+
+
 const AccessMap = () => {
   
   const intro_container = {
@@ -21,7 +25,6 @@ const AccessMap = () => {
     color: "teal"
   }
 
-
   return (
     <section id="accessmap">
       <div class="w3-full w3-container w3-paper"><br></br>
@@ -29,21 +32,24 @@ const AccessMap = () => {
           <h2>アクセスマップ</h2>
         </div>
         <div class="w3-row-padding letter_spacing">
-        <div class="w3-col m6"> 
+        <div class="w3-col l4 m6 w3-margin-bottom"> 
            <div class="business-info">
-              <p><i class="fas fa-map-marker-alt"></i> 神奈川県藤沢市湘南台2-26-17</p>
-              <p><i class="fas fa-subway"></i> 小田急線・相鉄線・市営地下鉄線　湘南台駅西口徒歩４分</p>
-              <p><i class="fas fa-phone"></i> <a href="tel:0466-53-5690">TEL&FAX：0466-53-5690</a></p>
-              <p><i class="fas fa-clock"></i> 受付時間 9:00-17:00</p>
-              <p><i class="far fa-calendar-alt"></i> 不定休</p>
+              <p><FontAwesomeIcon icon={faHouse} /> 神奈川県藤沢市湘南台2-26-17</p>
+              <p><FontAwesomeIcon icon={faTrain} /> 小田急線・相鉄線・市営地下鉄線　湘南台駅西口徒歩４分</p>
+              <p><FontAwesomeIcon icon={faPhone} />  <a href="tel:0466-53-5690">TEL&FAX：0466-53-5690</a></p>
+              <p><FontAwesomeIcon icon={faClock} /> 受付時間 9:00-17:00</p>
+              <p><FontAwesomeIcon icon={faCalendar} />  不定休</p>
         <br></br>
       </div>
       <div class="small-business-info">
-        <p>※予約制とさせて頂きます。予約は電話のみ受付。</p>
-        <p>※オイルマッサージ・リンパ浮腫治療は完全予約制。</p>
-        <p>※駐車場は近隣のコインパーキングをご利用ください。</p>
-        <p>※清潔な治療着をご用意しておりますので、どんな格好でもお越し頂けます。</p>
-        <p>※当院は、藤沢市高齢者はり・きゅう・マッサージ利用券取り扱い、生活保護法指定治療院です。交通事故ご相談ください。</p>
+        <ul>
+            <li>予約制とさせて頂きます。予約は電話のみ受付です</li>
+            <li>オイルマッサージ・リンパ浮腫治療は完全予約制です</li>
+            <li>駐車場は近隣のコインパーキングをご利用ください</li>
+            <li>清潔な治療着をご用意しておりますので、どんな格好でもお越し頂けます</li>
+            <li>当院は、藤沢市高齢者はり・きゅう・マッサージ利用券取り扱い、生活保護法指定治療院です。交通事故ご相談ください</li>
+        </ul>
+    
       </div>
         </div>
         <div class="w3-col m6">

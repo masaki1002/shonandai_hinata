@@ -2,6 +2,7 @@ import React from 'react'
 import "./Intro.css";
 
 import placeholder from "../images/placeholder-image.jpg"
+import hinata_interior from "../images/inside_01.jpg"
 
 const Intro = () => {
   const intro_container = {
@@ -33,19 +34,17 @@ const Intro = () => {
       </div>
     </div>
   </div>
-
  <div class="w3-container">
       <div class="w3-row-padding">
         <div class="w3-col m6">
-            <img class="w3-image w3-round-large" src={placeholder} alt="post_image"></img>
+            <img class="w3-image w3-round-large" src={hinata_interior} alt="post_image"></img>
         </div>
         <div class="w3-col m6">
             <img class="w3-image w3-round-large" src={placeholder} alt="post_image"></img>
         </div>
-
-
         </div>
 </div>
+<br></br>
 
     <div class="w3-container w3-row w3-center w3-teal w3-padding-64">
       <div class="w3-quarter">

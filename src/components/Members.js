@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Members.css"
 import placeholder_image from "../images/placeholder-image.jpg"
+import misuzu_image from "../images/misuzu.JPG"
+import junichi_image from "../images/junichi.JPG"
+
 
 const Members = () => {
 
@@ -30,7 +33,7 @@ const Members = () => {
           <div class="w3-left-align" style={intro_paragraph}>
           <div class="w3-row-padding">
             <div class="w3-col l4 m4 w3-margin-bottom">
-              <img class="w3-image w3-round-large image-max-width"  src={placeholder_image} alt="Buildings"></img>
+              <img class="w3-image w3-round-large image-max-width"  src={misuzu_image} alt="Buildings"></img>
             </div>
               <div class="w3-col l8 m8 w3-margin-bottom">
                 <p class="w3-large">
@@ -56,7 +59,7 @@ const Members = () => {
 
             <div class="w3-row-padding">
             <div class="w3-col l4 m4 w3-margin-bottom">
-              <img class="w3-image w3-round-large image-max-width"  src={placeholder_image} alt="Buildings"></img>
+              <img class="w3-image w3-round-large image-max-width"  src={junichi_image} alt="Buildings"></img>
             </div>
               <div class="w3-col l8 m8 w3-margin-bottom">
                 <p class="w3-large">
