@@ -2,6 +2,8 @@ import React,  { useEffect, useRef }  from 'react';
 import "./Post.css";
 import placeholder from "../images/placeholder-image.jpg"
 import window_decoration from "../images/inside_interior.jpg"
+import { Nav } from 'react-bootstrap';
+import { useNavigate, Router, Routes, Route, Link } from 'react-router-dom';
 
 
 function Post() {
@@ -24,7 +26,7 @@ function Post() {
     attemptPlay();
   }, []);
 
-
+  const navigate = useNavigate();
 
   return (
   <section id="post">
@@ -42,7 +44,7 @@ function Post() {
           ついイライラしてしまいますよね。針やお灸にはリラックス効果があります。治療を受けて心と身体をゆっくり休めませんか？<br></br><br></br>
           (一般的に人が読んでくれるブログの長さは500〜2000文字くらいと言われている)
           </p><br></br>
-          <p><a href="#moreposts" class="w3-button w3-teal w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off"><i class="fa fa-th"> </i>過去の便りを見る</a></p>
+          <button class="w3-button w3-teal w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off" onClick={() => navigate('/moreposts')}><i class="fa fa-th"> </i>過去の便りを見る</button> 
         </div>
         <div class="w3-col m6">
         <video
@@ -56,6 +58,7 @@ function Post() {
           ref={videoEl}
         />
       </div>
+          
     </div>
         </div>
     
