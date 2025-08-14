@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shonandai_hinata/static/css/main.005e8faf.css",
-    "main.js": "/shonandai_hinata/static/js/main.647cf519.js",
+    "main.js": "/shonandai_hinata/static/js/main.444ac80a.js",
     "static/media/junichi.JPG": "/shonandai_hinata/static/media/junichi.c22c2046bbe5cca76ff3.JPG",
     "static/media/misuzu.JPG": "/shonandai_hinata/static/media/misuzu.101ceb2782b25db2587f.JPG",
     "static/media/outside_02.jpg": "/shonandai_hinata/static/media/outside_02.d71920a4940868808e28.jpg",
@@ -9,10 +9,10 @@
     "static/media/inside_01.jpg": "/shonandai_hinata/static/media/inside_01.618b799ba1f28595d73b.jpg",
     "index.html": "/shonandai_hinata/index.html",
     "main.005e8faf.css.map": "/shonandai_hinata/static/css/main.005e8faf.css.map",
-    "main.647cf519.js.map": "/shonandai_hinata/static/js/main.647cf519.js.map"
+    "main.444ac80a.js.map": "/shonandai_hinata/static/js/main.444ac80a.js.map"
   },
   "entrypoints": [
     "static/css/main.005e8faf.css",
-    "static/js/main.647cf519.js"
+    "static/js/main.444ac80a.js"
   ]
 }
