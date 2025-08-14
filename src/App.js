@@ -25,7 +25,6 @@ function App() {
     
        <Routes>
         <Route path="/" element={ <Home /> }></Route>
-        <Route path="/#" element={ <Home /> }></Route>
         <Route path="/moreposts" element={ <MorePosts/> }></Route>
        </Routes>
     </Router>
