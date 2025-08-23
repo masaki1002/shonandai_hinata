@@ -1,8 +1,8 @@
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1 {
   background-attachment: fixed;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(206, 210, 209, 0.7) 100%),url("../../public/outside_02.jpg");
+  background-image: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(206, 210, 209, 0.7) 100%),url("../images/outside_02.jpg");
   min-height: 100vh;
 }
