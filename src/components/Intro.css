@@ -1,3 +1,11 @@
+#intro {
+    color: lch(20.69% 0.46 199.77);
+}
+
 .line_length {
     line-height: 200%;
+}
+
+.intro_font {
+  font-size: 1.2rem;
 }

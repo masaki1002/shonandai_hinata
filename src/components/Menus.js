@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
+import misuzu_image from "../images/misuzu.JPG"
 
 
 const Menus = () => {
@@ -31,6 +32,10 @@ const Menus = () => {
 
   const icon_color = {
     color: "teal"
+  }
+
+   const max_width = {
+    max_width: "700px"
   }
 
   const [show, setShow] = useState(false);
@@ -62,167 +67,156 @@ const Menus = () => {
   return (
     <section id="menu">
     
-    <div class="w3-full w3-container"><br></br>
+    <div class="w3-full w3-paper w3-container"><br></br>
         <div class="w3-center" style={intro_container}>
           <h2>ひなた治療院治療メニュー</h2>
           <p class="w3-center w3-large">ご要望に合わせたご提案をします</p>
-          <div class="w3-container w3-center" id="pricing">
+          
+          <div class="w3-container w3-center letter_spacing" id="pricing">
             <div class="w3-row-padding">
-            
+           
             {/* 針/お灸 */}
             <div class="w3-third w3-section">
               <ul class="w3-ul w3-white w3-hover-shadow">
-              <li class="w3-black w3-large w3-padding-32">針/お灸</li>
+              <li class="w3-blue-gray w3-large w3-padding-16">針/お灸</li>
+                <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
+                  <li class="w3-padding-32 w3-left-align">
+                    <ul class="w3-ul">
+                      <li>
+                      鍼灸治療: ６，０００円<br></br><br></br>
+                      花粉症治療: １０，５００円 (1クール分)<br></br><br></br>
+                      逆子治療: ３，５００円
+                      </li>
+                    </ul>
+                  </li>  
+                <li class="w3-padding-16 w3-center-align">
+                <button class="w3-button w3-teal w3-padding-large" onClick={handleShow}>詳しく見る</button>
+                </li>
+              </ul>  
+            </ul>
+          </div>
+
+          {/* あん摩・指圧・マッサージ */}
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-blue-gray w3-large w3-padding-16">あん摩/指圧/マッサージ</li>
               <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
                 <li class="w3-padding-32 w3-left-align">
-                <span class="w3-left w3-large">ご料金</span>
-                <br></br>
-                <br></br>
-                <ul class="w3-ul">
-                  <li>
-                    鍼灸治療: ６，０００円
-                  </li>
-                  <li>
-                    花粉症治療: １０，５００円 (1クール分)
-                  </li>
-                  <li>
-                    逆子治療: ３，５００円
-                  </li>
-                </ul>
-            </li>  
-          <li class="w3-padding-16 w3-center-align">
-          <button class="w3-button w3-teal w3-padding-large" onClick={handleShow}>詳しく見る</button>
-          </li>
-        </ul>  
-      </ul>
-    </div>
+                  <ul class="w3-ul">
+                    <li>
+                    60分: ６，０００円 <br></br><br></br>
+                    <br></br><br></br>
+                    <br></br>
+                    </li>
+                  </ul>
+                </li>  
+              <li class="w3-padding-16 w3-center-align">
+              <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_2}>詳しく見る</button>
+              </li>
+            </ul>  
+          </ul>
+          </div>
 
-    {/* あん摩・指圧・マッサージ */}
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-32">あん摩・指圧・マッサージ</li>
-        <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
-          <li class="w3-padding-32 w3-left-align">
-            <span class="w3-left w3-large">ご料金</span>
-            <br></br>
-            <br></br>
-            <ul class="w3-ul">
-              <li>
-                ６，０００円          
+          {/* リンパ浮腫治療 */}
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-blue-gray w3-large w3-padding-16">リンパ浮腫治療</li>
+              <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
+                <li class="w3-padding-32 w3-left-align">
+                  <ul class="w3-ul">
+                    <li>
+                    ６０分: １０，５００円 <br></br><br></br>
+                    ９０分: １５，５００円  
+                    <br></br><br></br><br></br>
+                    </li>
+                  </ul>
+                </li>  
+              <li class="w3-padding-16 w3-center-align">
+              <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_3}>詳しく見る</button>
               </li>
-              <li><br></br></li>
-              <li><br></br></li>
-            </ul>
-          </li>   
-          
-          <li class="w3-padding-16 w3-center-align">
-          <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_2}>詳しく見る</button>
-          </li>
-        </ul>  
-      </ul>
-    </div>
+            </ul>  
+          </ul>
+          </div>
 
-    {/* リンパ浮腫治療 */}
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-32">リンパ浮腫治療</li>
-        <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
-          <li class="w3-padding-32 w3-left-align">
-            <span class="w3-left w3-large">ご料金</span>
-            <br></br>
-            <br></br>
-            <ul class="w3-ul">
-              <li>
-                ６０分: １０，５００円
+            {/* ヨモギ蒸し */}
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-blue-gray w3-large w3-padding-16">ヨモギ蒸し</li>
+              <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
+                <li class="w3-padding-32 w3-left-align">
+                  <ul class="w3-ul">
+                    <li>
+                    ２，５００円 <br></br>
+                    鍼/灸/指圧/マッサージ併用は半額
+                    <br></br><br></br><br></br><br></br>
+                    </li>
+                  </ul>
+                </li>  
+              <li class="w3-padding-16 w3-center-align">
+              <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_4}>詳しく見る</button>
               </li>
-              <li>
-                ９０分: １５，５００円  
+            </ul>  
+          </ul>
+          </div>
+
+             {/* 美顔鍼　 */}
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-blue-gray w3-large w3-padding-16">美顔鍼　</li>
+              <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
+                <li class="w3-padding-32 w3-left-align">
+                  <ul class="w3-ul">
+                    <li>
+                    美顏 おてがる: ３，５００円<br></br><br></br>
+                    美顏 しっかり: ６，０００円
+                    <br></br><br></br><br></br>
+                    </li>
+                  </ul>
+                </li>  
+              <li class="w3-padding-16 w3-center-align">
+              <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_5}>詳しく見る</button>
               </li>
-              <li><br></br></li>
-            </ul>
-          </li>   
-          <li class="w3-padding-16 w3-center-align">
-          <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_3}>詳しく見る</button>
-          </li>
-        </ul>  
-      </ul>
-    </div>
+            </ul>  
+          </ul>
+          </div>
+
+           {/* 小児鍼 */}
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+            <li class="w3-blue-gray w3-large w3-padding-16">小児鍼</li>
+              <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
+                <li class="w3-padding-32 w3-left-align">
+                  <ul class="w3-ul">
+                    <li>
+                    ３０分: １，５００円<br></br><br></br>
+                    <br></br><br></br><br></br>
+                    </li>
+                  </ul>
+                </li>  
+              <li class="w3-padding-16 w3-center-align">
+              <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_6}>詳しく見る</button>
+              </li>
+            </ul>  
+          </ul>
+          </div>
+
+            <p class="w3-left-align w3-medium">
+    01. 初診料/再診料(前回の来院から半年以上経過)として、別途１，５００円(リンパ浮腫は別途２，５００円)を頂戴します
+    <br></br>
+    02. リンパ浮腫においては「弾性包帯施行料: １，５００円」と「弾性包帯購入費用: ４，４００円〜１６，５００円」が別途発生します
+    <br></br>
+    03. 花粉症治療の効果を出すためには、1クール(３回続けて)来院して頂く必要があります
+  </p>
+
+    
+
+    
+
 
   
-     {/* ヨモギ蒸し */}
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-32">ヨモギ蒸し</li>
-        <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
-          <li class="w3-padding-32 w3-left-align">
-            <span class="w3-left w3-large">ご料金</span>
-            <br></br>
-            <br></br>
-            <ul class="w3-ul">
-              <li>
-                ２，５００円
-              </li>
-              <li>鍼/灸/指圧/オイルマッサージ併用で半額</li>
-              <li><br></br></li>
-            </ul>
-          </li>   
-          <li class="w3-padding-16 w3-center-align">
-          <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_4}>詳しく見る</button>
-          </li>
-        </ul>  
-      </ul>
-    </div>
+  
 
-      {/* 美顔鍼　 */}
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-32">美顔鍼</li>
-        <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
-          <li class="w3-padding-32 w3-left-align">
-            <span class="w3-left w3-large">ご料金</span>
-            <br></br>
-            <br></br>
-            <ul class="w3-ul">
-              <li>
-                美顏 おてがる: ３，５００円
-              </li>
-              <li>
-                美顏 しっかり: ６，０００円
-              </li>
-              <li><br></br></li>
-            </ul>
-          </li>   
-         
-          <li class="w3-padding-16 w3-center-align">
-          <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_5}>詳しく見る</button>
-          </li>
-        </ul>  
-      </ul>
-    </div>
-
-    {/* 小児鍼 */}
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-large w3-padding-32">小児鍼</li>
-        <ul class="w3-ul w3-border w3-center w3-hover-shadow">   
-          <li class="w3-padding-32 w3-left-align">
-            <span class="w3-left w3-large">ご料金</span>
-            <br></br>
-            <br></br>
-            <ul class="w3-ul">
-              <li>
-                １，５００円
-              </li>
-              <li><br></br></li>
-              <li><br></br></li>
-            </ul>
-          </li>   
-          <li class="w3-padding-16 w3-center-align">
-          <button class="w3-button w3-teal w3-padding-large" onClick={handleShow_6}>詳しく見る</button>
-          </li>
-        </ul>  
-      </ul>
-    </div>
+   
 
    
 
@@ -473,13 +467,7 @@ const Menus = () => {
 </div>
 
  <div>
-         <p class="w3-left-align w3-medium">
-    01. 初診料/再診料(前回の来院から半年以上経過)として、別途１，５００円(リンパ浮腫は別途２，５００円)を頂戴します
-    <br></br>
-    02. リンパ浮腫においては「弾性包帯施行料: １，５００円」と「弾性包帯購入費用: ４，４００円〜１６，５００円」が別途発生します
-    <br></br>
-    03. 花粉症治療の効果を出すためには、1クール(３回続けて)来院して頂く必要があります
-  </p>
+
     </div>
 
 

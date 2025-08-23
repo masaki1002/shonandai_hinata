@@ -3,41 +3,41 @@ import "./Intro.css";
 
 import placeholder from "../images/placeholder-image.jpg"
 import hinata_interior from "../images/inside_01.jpg"
+import { Parallax } from 'react-scroll-parallax';
 
 const Intro = () => {
   const intro_container = {
-    padding: "64px 0px 12px 12px"
+    padding: "32px 0px 0px 0px"
   }
 
   const intro_paragraph = {
-    padding: "50px"
+    padding: "50px 0px 0px"
   }
   
-
   return (
   <section id="intro">
-
-
-    <div class="w3-full w3-container"><br></br>
-      <div class="w3-center" style={intro_container}>
-        <h2>ひなた治療院の紹介</h2>
-        <div class="w3-left-align" style={intro_paragraph}>
+    <div class="w3-full w3-container w3-padding-64"><br></br>
+      <div class="w3-row-padding letter_spacing">
+         <div class="w3-center" style={intro_container}>
+          <h2><b>ひなた治療院へようこそ！</b></h2>
+          <div class="w3-left-align" style={intro_paragraph}>
           <h4>日常を少し離れて、心と身体を整える時間を!<br></br>湘南台の隠れ家 鍼灸マッサージサロン「ひなた治療院」</h4><br></br>
-          <p class="w3-large line_length">
-          忙しい毎日、気づかないうちに疲れやストレスをためこんでいませんか？湘南台駅近くにある「ひなた治療院」は、鍼灸とマッサージの力で、心と身体のバランスをやさしく整える、女性にも人気の治療院です。<br></br>
+          <p class="w3-large line_length intro_font">
+          忙しい毎日、気づかないうちに疲れやストレスをためこんでいませんか？湘南台駅近くにある「ひなた治療院」は、鍼灸とマッサージの力で、心と身体のバランスをやさしく整える、女性にも人気の治療院です。
           肩こりや腰痛、自律神経の乱れ、年齢による体調の変化——<br></br>
           病院に行くほどではないけれど、ずっと気になっている小さな不調。そんな“なんとなくの不調”こそ、丁寧に向き合うことで、日常が大きく変わります。<br></br><br></br>
-          「藤沢市で信頼できる鍼灸院を探している」「湘南台でリラックスできるマッサージを受けたい」、そんな方に選ばれ続け、幅広い年代の患者さまにご来院いただいております。
+          「藤沢市で信頼できる鍼灸院を探している」<br></br>「湘南台でリラックスできるマッサージを受けたい」<br></br><br></br>そんな方々に選ばれ続け、幅広い年代の患者さまにご来院いただいております。
           「ひなた」のような温かな空間で、一人ひとりのお悩みに合わせたオーダーメイドの施術をご提供します。治療でありながら、リラックスや癒しも感じていただける時間になるはずです。
           完全予約制・静かなプライベート空間で、安心してご相談いただけます。湘南台・藤沢エリアで、質の高い鍼灸マッサージをお探しの方に、ぜひお越しいただきたい治療院です。  
-        </p>
+          </p>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
  <div class="w3-container">
       <div class="w3-row-padding">
         <div class="w3-col m6">
-            <img class="w3-image w3-round-large" src={hinata_interior} alt="post_image"></img>
+            <img class="w3-image w3-round-large w3-grayscale-min " src={placeholder} alt="post_image"></img>
         </div>
         <div class="w3-col m6">
             <img class="w3-image w3-round-large" src={placeholder} alt="post_image"></img>

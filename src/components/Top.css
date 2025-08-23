@@ -1,9 +1,8 @@
-.bgimg-1 {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(206, 210, 209, 0.7) 100%),url("../../public/outside_02.jpg") no-repeat top center;
-    background-size:cover;
-    height: 120vh;  
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(206, 210, 209, 0.7) 100%),url("../../public/outside_02.jpg");
+  min-height: 100vh;
 }
-

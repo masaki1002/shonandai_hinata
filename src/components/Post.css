@@ -1,3 +1,8 @@
 .line_length {
     line-height: 200%;
 }
+
+.post_font {
+  font-size: 1.2rem;
+  color: lch(20.69% 0.46 199.77);  
+}

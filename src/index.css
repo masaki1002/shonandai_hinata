@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,section {
+  font-family: "M PLUS 1p", sans-serif;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+
+
 .top_title_font {
-  font-family: "Noto Sans JP", "sans-serif",  'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "M PLUS 1p", "Noto Sans JP", "sans-serif",  'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
 
- .letter_spacing {
-   letter-spacing: 2px;
- }
 
+
+ body{
+  margin: 0%;
+  overflow-x: hidden;
+ }
 
 /* body {
   margin: 0;
@@ -27,4 +38,15 @@ code {
     monospace;
 }
 
+a {
+  color: rgb(0, 0, 0);
+}
 
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

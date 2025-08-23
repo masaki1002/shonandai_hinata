@@ -11,19 +11,22 @@ import Menus from './Menus';
 import AccessMap from './AccessMap';
 import SNS from './SNS';
 import Navigation from './Navigation';
+import MorePosts from './MorePosts';
+import { ParallaxProvider } from "react-scroll-parallax";
 
 
 const Home = () => {
+
   return (
-    <div className="all_components">
+    <div>
       <Navigation />
       <Top />
       <Post />
       <Intro />
-      <Approach />
-      <PatientVoices />
       <Members />
+      <Approach />
       <Menus />
+      <PatientVoices />
       <AccessMap />
       <SNS />
     </div>

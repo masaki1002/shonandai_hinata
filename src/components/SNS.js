@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import './SNS.css';
 
 
+
+
 const SNS = () => {
 
    const instagramNewWindow = () => {
@@ -13,33 +15,33 @@ const SNS = () => {
     }
 
   return (
-     <section id="sns">
-      <br></br>
-      <div class="container">
-        <div class="snsIcon">
-          <Button 
-          class="btn"
-          onClick={instagramNewWindow}
-          style={{
-          backgroundImage:"url('./Instagram_Glyph_Gradient.png')",
-          backgroundSize:"cover",
-          backgroundColor: "transparent", 
-          border:"none",
-          width:"50px", 
-          height:"50px"}}>
-          </Button>
-          <br></br>
-          <br></br>
-          <div class="copy-right">
-            <p>© 2025 ひなた治療院</p>
-          </div>
-        </div>
-       
-      </div>
+  <section id="sns">
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+
+   <div>
+      <p>© 2025 ひなた治療院</p>
+    </div>    
+
+</footer>
+   
      
+     
+  
         
+       
+
+
+
+
+
+
+     
     </section>
   )
 }
 
 export default SNS
+
+
+
+
