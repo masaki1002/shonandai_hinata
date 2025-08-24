@@ -16,15 +16,15 @@ export const PatientVoices = () => {
     }
 
     const card_size_small = {
-      height: "22vh"
+      height: "20rem"
     }
 
     const card_size_medium = {
-      height: "35vh"
+      height: "25rem"
     }
 
     const card_size_large = {
-      height: "40vh"
+      height: "40rem"
     }
 
 

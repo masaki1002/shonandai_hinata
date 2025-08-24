@@ -61,7 +61,7 @@ const AccessMap = () => {
              <div class="googlemap">
         <Iframe 
           url={"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1626.286576856071!2d139.4638406!3d35.3910413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018516ccc7e13bd%3A0xe9e119140ebb24ac!2z44Gy44Gq44Gf5rK755mC6Zmi!5e0!3m2!1sja!2sjp!4v1551619669794"}
-          width='800'
+          width='100%'
           height='450'
           frameborder="0" 
           allowfullscreen
