@@ -22,7 +22,7 @@ const Intro = () => {
           <h2><b>ひなた治療院へようこそ！</b></h2>
           <div class="w3-left-align" style={intro_paragraph}>
           <h4>日常を少し離れて、心と身体を整える時間を!<br></br>湘南台の隠れ家 鍼灸マッサージサロン「ひなた治療院」</h4><br></br>
-          <p class="w3-large line_length intro_font">
+          <p class="line_length intro_font">
           忙しい毎日、気づかないうちに疲れやストレスをためこんでいませんか？湘南台駅近くにある「ひなた治療院」は、鍼灸とマッサージの力で、心と身体のバランスをやさしく整える、女性にも人気の治療院です。
           肩こりや腰痛、自律神経の乱れ、年齢による体調の変化——<br></br>
           病院に行くほどではないけれど、ずっと気になっている小さな不調。そんな“なんとなくの不調”こそ、丁寧に向き合うことで、日常が大きく変わります。<br></br><br></br>
@@ -46,20 +46,20 @@ const Intro = () => {
 </div>
 <br></br>
 
-    <div class="w3-container w3-row w3-center w3-teal w3-padding-64">
-      <div class="w3-quarter">
+    <div class="w3-container w3-row w3-center w3-teal w3-padding-64 intro_record">
+      <div class="w3-quarter w3-padding-16">
         <span class="w3-xxlarge">19年目</span>
         <br></br>湘南台で開業
       </div>
-      <div class="w3-quarter">
+      <div class="w3-quarter w3-padding-16">
         <span class="w3-xxlarge">30,000人+</span>
         <br></br>のべ患者数
      </div>
-      <div class="w3-quarter">
+      <div class="w3-quarter w3-padding-16">
         <span class="w3-xxlarge">95%+</span>
         <br></br>治療満足度
       </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter w3-padding-16">
         <span class="w3-xxlarge">95%+</span>
         <br></br>リピート率
     </div>

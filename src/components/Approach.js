@@ -29,7 +29,7 @@ const Approach = () => {
           <div class="w3-center" style={intro_container}>
           <h2><b>ひなた治療院の施術アプローチ</b></h2>
           <p class="w3-center w3-large">「対症療法から根本療法へ。痛みや不調を薬で抑えるよりも体質改善が重要」</p>
-          <div class="w3-container w3-padding-64 w3-paper" style={hinata_characteristics} id="about">
+          <div class="w3-container w3-padding-64" style={hinata_characteristics} id="about">
           <div class="w3-row-padding w3-center">
             <div class="w3-third">
               <i class="fa fa-check-square-o w3-margin-bottom w3-jumbo w3-center" style={icon_color}></i>

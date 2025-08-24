@@ -41,7 +41,7 @@ function Post() {
 
     <div class="w3-container w3-paper w3-padding-64">
         <div class="w3-row-padding letter_spacing">
-        <div class="w3-col m7">
+        <div class="w3-col l7">
           <h6>季節の便り 2025/08/17</h6>
           <h3>免疫力をアップさせて猛暑に勝ちましょう！</h3><br></br>
           <p class="w3-large line_length">毎日ジメジメして過ごしにくい日々が続きますね。
@@ -51,9 +51,11 @@ function Post() {
           (一般的に人が読んでくれるブログの長さは500〜2000文字くらいと言われている)
           </p><br></br>
           <button class="w3-button w3-teal w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off" onClick={() => navigate('/moreposts')}><i class="fa fa-th"> </i>過去の便りを見る</button> 
+          <br></br><br></br>
         </div>
-        <div class="w3-col m5">
-        <video
+      
+        <div class="w3-col l5">
+        {/* <video
           src={okyu_video}
           style={{ maxWidth: "100%", width: "300px",  margin: "0 auto" }}
           playsInline
@@ -63,7 +65,7 @@ function Post() {
           alt="All the devices"
      
           ref={videoEl}
-        />
+        /> */}
       </div>
           
     </div>

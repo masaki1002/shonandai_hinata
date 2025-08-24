@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 
-body,h1,h2,h3,h4,h5,h6,p,ul,li,section {
+body,h1,h2,h3,h4,h5,h6,p,ul,li,section,span {
   font-family: "M PLUS 1p", sans-serif;
   line-height: 150%;
   letter-spacing: 1px;
