@@ -10,7 +10,7 @@ const Navigation = () => {
             <Navbar className="w3-card custom-navbar-bg" expand="lg"sticky="top">
             <Container fluid style={{ minHeight: "3vh"}}>
                 <Navbar.Brand href="#">
-                <img class="w3-image w3-round-large image-max-width"   style={{ maxWidth: "75%", width: "100px",  margin: "0 auto" }} src={hinata_logo_image} alt="misuzu oeda"></img>
+                <img class="w3-image w3-round-large image-max-width"   style={{ maxWidth: "60%", width: "100px",  margin: "0 auto" }} src={hinata_logo_image} alt="misuzu oeda"></img>
                 {/* <b>ひなた治療院</b> */}
                 
                 
