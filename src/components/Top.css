@@ -23,8 +23,23 @@
         background-position: top center; /* Adjust position for mobile */
     }
 
-    .my_button {
-        width: 75%; /* Full width on very small screens */
+}
+
+@media (max-width: 768px) {
+
+   .my_button {
+        width: 65%; /* Full width on very small screens */
         padding: 15px; /* Adjust padding for full width */
     }
 }
+
+@media (max-width: 768px) {
+
+  .top_button_size {
+    font-size: 0.9rem;
+}
+}
+
+
+   
+    
