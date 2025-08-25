@@ -11,7 +11,7 @@ const Navigation = () => {
             <Container fluid style={{ minHeight: "3vh"}}>
                 <Navbar.Brand href="#">
                 <img class="w3-image w3-round-large image-max-width"   style={{ maxWidth: "60%", width: "70px",  margin: "0 auto" }} src={hinata_logo_image} alt="misuzu oeda"></img>
-                <b>ひなた治療院</b>
+                <b>ひなた治療院f</b>
                 
                 
                 </Navbar.Brand>
