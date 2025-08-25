@@ -4,5 +4,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(206, 210, 209, 0.7) 100%),url("../images/outside_02.jpg");
+  
   min-height: 100vh;
+}
+
+.my_button {
+  width: 45%; /* Full width on very small screens */
+  padding: 20px; /* Adjust padding for full width */
+}
+
+.top_button_size {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .bgimg-1 {
+        background-image: linear-gradient(to top, rgba(214, 209, 209, 0.141) 0%, rgba(206, 210, 209, 0.7) 100%),url("../images/outside_02_mobile.jpg");/* Smaller image for mobile */
+        background-position: top center; /* Adjust position for mobile */
+    }
+
+    .my_button {
+        width: 75%; /* Full width on very small screens */
+        padding: 15px; /* Adjust padding for full width */
+    }
 }
